@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3221954413
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7130979e52ef481b66ea126726d774ba
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 19fe4619ac1f8411499288c48ff6db79
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Textures and Materials/360 Video/360 Material.mat
+- Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+- Assets/Textures and Materials/360 Video/Transparency.mat
+Dependencies:
+- C:/Users/Jeremy/Documents/GitHub/Asurion/Asurion/OVRAssetBundles/OVRMasterBundle/asset_rendertexture0
+- C:/Users/Jeremy/Documents/GitHub/Asurion/Asurion/OVRAssetBundles/OVRMasterBundle/asset_shader0

@@ -1,0 +1,123 @@
+ManifestFileVersion: 0
+CRC: 3840465460
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b0e89b3c7ec11652e3f287ab67c5ed0a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3fbe5fcdddc9901d0174c94c0b834257
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7448815bd5148434682b3d931066cd10, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ab68ce6587aab0146b8dabefbd806791, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9ccfa1415a5d2f945a5217132e08e6d7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e578bf2e81dac5c46af02a67ea35e162, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1ae26e19cd956134bbdf3c6f65bf393a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b07cc89989f16af4bb4dc876f6e20c05, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1636ed8430dac2847bea9303ebf95870, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d6b25b06ccdda4e4298dcb55ecbfa961, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c8b2b68bd3ac3492c89dbc9c294509d3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c2fadf230d1919748a9aa21d40f74619, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5dd4d2162a81cc748b1e9375714f4eea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8024791a44437a843a8f049560ea96aa, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+- Class: 328
+  Script: {instanceID: 0}
+- Class: 329
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Scenes/Demo.unity
+Dependencies:
+- C:/Users/Jeremy/Documents/GitHub/Asurion/Asurion/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- C:/Users/Jeremy/Documents/GitHub/Asurion/Asurion/OVRAssetBundles/OVRMasterBundle/asset_mp40
+- C:/Users/Jeremy/Documents/GitHub/Asurion/Asurion/OVRAssetBundles/OVRMasterBundle/asset_prefab0
+- C:/Users/Jeremy/Documents/GitHub/Asurion/Asurion/OVRAssetBundles/OVRMasterBundle/asset_rendertexture0

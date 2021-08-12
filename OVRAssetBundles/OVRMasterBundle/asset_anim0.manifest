@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3918204122
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 953bfa3956459d026a6f4f590257eda6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af57576da81d5d3ce45807ac11234de6
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Animations/MainMenuPanel.anim
+Dependencies: []

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3567887039
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 55bedad4a3eba1809cfbafbfca270d1f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fdf6c57a251b9f6ec27bdd2fe01b033c
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Animations/Panel.controller
+Dependencies:
+- C:/Users/Jeremy/Documents/GitHub/Asurion/Asurion/OVRAssetBundles/OVRMasterBundle/asset_anim0

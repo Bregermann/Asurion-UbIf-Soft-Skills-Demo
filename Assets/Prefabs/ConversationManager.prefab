@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2307011716900153572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2307011716900153574}
+  - component: {fileID: 2307011716900153573}
+  - component: {fileID: 2307011716900153575}
+  m_Layer: 0
+  m_Name: ConversationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2307011716900153574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2307011716900153572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 294.04483, y: 161.34853, z: -8.132334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2307011716900153573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2307011716900153572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccfa1415a5d2f945a5217132e08e6d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  choicePanel:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  customerVideo: {fileID: 0}
+  customerVideos: []
+  currentQuestion: 0
+  maxQuestions: 0
+  walkOutScore: 0
+  walkOutScoreLimit: 100
+  walkOutClips: []
+  inattentiveTime: 0
+  inattentiveTimeMax: 10000
+  inattentiveTimeInc: 0
+  opportunitiesMissed: 0
+  serveOpportunitiesMissed: 0
+  solveOpportunitiesMissed: 0
+  sellOpportunitiesMissed: 0
+  timerModifier: 0
+  attentivenessModifier: 0
+  overallScore: 0
+  serveScore: 0
+  solveScore: 0
+  sellScore: 0
+  decTimer: 0
+  isAnswering: 0
+  answerTimeRecord:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  selectedAnswerText: {fileID: 0}
+  RAA: {fileID: 0}
+  resultsScreen: {fileID: 0}
+--- !u!114 &2307011716900153575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2307011716900153572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1636ed8430dac2847bea9303ebf95870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mThreshold: 2.5
+  voiceRecognitionBox: {fileID: 0}
