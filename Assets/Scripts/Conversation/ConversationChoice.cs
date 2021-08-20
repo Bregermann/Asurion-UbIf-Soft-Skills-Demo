@@ -12,7 +12,6 @@ public class ConversationChoice : MonoBehaviour
                            // public ReadAlongAnswers RAA;
 
     public Text answerText;
-    public Text feedbackText;
     //  public GameObject answerFeedback; //floating text
     // public Transform answerFeedbackSpawn;
 
@@ -21,7 +20,6 @@ public class ConversationChoice : MonoBehaviour
     public int sell;
     public int score;
 
-    public int whichVideoPlaysNext;
     public GameObject readAlong;
     public GameObject finishedSpeaking;
 
@@ -43,7 +41,6 @@ public class ConversationChoice : MonoBehaviour
          CM.solveScore += solve; */
         CM.score += score;
         //CM.selectedAnswerText.text = answerText.text;
-        feedbackText.text = answerText.text;
         CM.isAnswering = false;
         CM.currentQuestion++;
         CM.choicePanel[CM.currentQuestion - 1].SetActive(false);

@@ -75,6 +75,7 @@ public class ConversationManager : MonoBehaviour
     public GazeDetector GD;
     public Text isLookDebug;
 
+    public Text readAlongText;
     public AudioSource feedbackSound;
     public AudioClip feedbackSoundGreen;
     public AudioClip feedbackSoundYellow;
@@ -119,10 +120,10 @@ public class ConversationManager : MonoBehaviour
              {
                  CustomerWalkOut();
              } */
-        if (inattentiveTime > inattentiveTimeMax)
-        {
-            CustomerWalkOut();
-        }
+        /*  if (inattentiveTime > inattentiveTimeMax)
+          {
+              CustomerWalkOut();
+          } */
         if (GD.isGazing == false && isAnswering == false)
         {
             inattentiveTime += Time.deltaTime;
@@ -398,181 +399,223 @@ public class ConversationManager : MonoBehaviour
     public void PositiveOne()
     {
         whichVideo = 1;
+        readAlongText.text = "Welcome to uBreakiFix, my name is _______. What can I fix for you today?";
     }
 
     public void PositiveTwo()
     {
         whichVideo = 2;
+        readAlongText.text = "Certainly, we fix it all! Broken screens are the most common damage we see, so you are not alone. May I ask, how did the damage occur?";
     }
 
     public void PositiveThree()
     {
         whichVideo = 3;
+        readAlongText.text = "Yikes! That will do it. Was it in a case when that happened?";
     }
 
     public void PositiveFour()
     {
         whichVideo = 4;
+        readAlongText.text = "Screen repair for your phone is $199.99 plus tax. It comes with our nationwide 90 day warranty and a price match guarantee.";
     }
 
     public void PositiveFive()
     {
         whichVideo = 5;
+        readAlongText.text = "We can have that ready for you in as little as 2 hours! Also, if you bundle a new case or liquid glass screen protector with your repair, I can discount it by 10%!";
     }
 
     public void PositiveSix()
     {
         whichVideo = 6;
+        readAlongText.text = "Let’s start with your information. Is this your first time getting a professional repair with uBreakiFix?";
     }
 
     public void PositiveSeven()
     {
         whichVideo = 7;
+        readAlongText.text = "Well then let me say, welcome! May I please have your full name, email address for repair updates and a copy of your work order, and a phone number we can reach you at while we have your phone.";
     }
 
     public void PositiveEight()
     {
         whichVideo = 8;
+        readAlongText.text = "Perfect! So the next step is to perform a quick diagnostic check on your phone and make sure everything else is working normally. Would it be okay to see your phone at this point?";
     }
 
     public void PositiveNine()
     {
         whichVideo = 9;
+        readAlongText.text = " I can understand that completely. Did you happen to see if they warranty their repairs or maybe check out their reviews online yet?";
     }
 
     public void PositiveTen()
     {
         whichVideo = 10;
+        readAlongText.text = "Well, if you know if any of our local competitors are advertising a lower price, we will match AND beat it by $5!";
     }
 
     public void PositiveEleven()
     {
         whichVideo = 11;
+        readAlongText.text = "We will do that repair for $5 less today, AND I can still discount a case if you bundle it with your repair!";
     }
 
     public void PositiveTwelve()
     {
         whichVideo = 12;
+        readAlongText.text = "Yes let’s check everything else out with your phone. [performs diagnostic] So everything seems normal apart from your battery. Apple recommends a battery replacement below 80%, yours is currently at 70%. If you would like, we can replace the battery while we repair the screen. Since the labor charge is worked into the screen repair price, I can take half off a battery replacement if you get it done today.";
     }
 
     public void PositiveThirteen()
     {
         whichVideo = 13;
+        readAlongText.text = "I am glad we can take of all of your needs for you today! So we have the screen repair and battery replacement, and I will have some recommendations for a good case for your phone set aside when you come to pick it up.";
     }
 
     public void PositiveFourteen()
     {
         whichVideo = 14;
+        readAlongText.text = "Thank YOU for choosing uBreakiFix! We will have this ready for you in 2 hours, have a fantastic day!";
     }
 
     public void NeutralOne()
     {
         whichVideo = 15;
+        readAlongText.text = "Hi, welcome to uBreakiFix, how can I help?";
     }
 
     public void NeutralTwo()
     {
         whichVideo = 16;
+        readAlongText.text = "Absolutely! Don’t worry you’re not alone, happens all the time.";
     }
 
     public void NeutralThree()
     {
         whichVideo = 17;
+        readAlongText.text = "Do you have a protective case that you keep your phone in?";
     }
 
     public void NeutralFour()
     {
         whichVideo = 18;
+        readAlongText.text = "It’s $199.99 and comes with a 90 day warranty. Can I set aside a case for you as well?";
     }
 
     public void NeutralFive()
     {
         whichVideo = 19;
+        readAlongText.text = "That repair is about a 2 hour turnaround for you today. Additionally, you can get a discount on a case if you bundle it with your repair.";
     }
 
     public void NeutralSix()
     {
         whichVideo = 20;
+        readAlongText.text = "Well first let me ask, have you been to a uBreakiFix before?";
     }
 
     public void NeutralSeven()
     {
         whichVideo = 21;
+        readAlongText.text = "No problem! To start I will need your name, email address, and a phone number we can reach you at.";
     }
 
     public void NeutralEight()
     {
         whichVideo = 22;
+        readAlongText.text = "Great. Next we are going to check out the phone and see if there is anything else wrong with it.";
     }
 
     public void NeutralNine()
     {
         whichVideo = 23;
+        readAlongText.text = "I definitely understand, it is not inexpensive. But also keep in mind the money you will save on a case if you bundle it with your repair today.";
     }
 
     public void NeutralTen()
     {
         whichVideo = 24;
+        readAlongText.text = "Well we do have our low price guarantee. If you find a competitor with a lower advertised price, we will beat it.";
     }
 
     public void NeutralEleven()
     {
         whichVideo = 25;
+        readAlongText.text = "Wow that’s a low price! But we can definitely do the repair for that. Also, you still get your discount on a case if you get one today.";
     }
 
     public void NeutralTwelve()
     {
         whichVideo = 26;
+        readAlongText.text = "Everything else is functioning normally! So give us two hours and we will get that taken care of for you.";
+    }
+
+    public void NeutralThirteen()
+    {
+        whichVideo = 27;
+        readAlongText.text = "It’s my pleasure. See you in 2 hours, goodbye!";
     }
 
     public void NegativeOne()
     {
-        whichVideo = 27;
+        whichVideo = 28;
+        readAlongText.text = "Welcome, what can I do for you today?";
     }
 
     public void NegativeTwo()
     {
-        whichVideo = 28;
+        whichVideo = 29;
+        readAlongText.text = " Yeah we can fix that, I believe the part is in stock. That repair will take about 2 hours.";
     }
 
     public void NegativeThree()
     {
-        whichVideo = 29;
+        whichVideo = 30;
+        readAlongText.text = "Do you want to get a case with your repair today?";
     }
 
     public void NegativeFour()
     {
-        whichVideo = 30;
+        whichVideo = 31;
+        readAlongText.text = "It’s $199.99. You should definitely think about a case too.";
     }
 
     public void NegativeFive()
     {
-        whichVideo = 31;
+        whichVideo = 32;
+        readAlongText.text = "We can have that done in about 2 hours.";
     }
 
     public void NegativeSix()
     {
-        whichVideo = 32;
+        whichVideo = 33;
+        readAlongText.text = "Yeah I am going to need some information from you, have you been to a uBreakiFix before?";
     }
 
     public void NegativeSeven()
     {
-        whichVideo = 33;
+        whichVideo = 34;
+        readAlongText.text = "Okay so I will need your name, email address, and a phone number we can contact you at.";
     }
 
     public void NegativeEight()
     {
-        whichVideo = 34;
+        whichVideo = 35;
+        readAlongText.text = "Now I am going to take a look at your phone and see if everything else is working.";
     }
 
     public void NegativeNine()
     {
-        whichVideo = 35;
+        whichVideo = 36;
+        readAlongText.text = "Well I can definitely tell you that every repair we perform is the highest quality and we have a warranty on it too.";
     }
 
     public void NegativeTen()
     {
-        whichVideo = 36;
+        whichVideo = 37;
+        readAlongText.text = "Sure thing, have a good day.";
     }
 
     #endregion

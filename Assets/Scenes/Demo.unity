@@ -992,7 +992,7 @@ RectTransform:
   m_GameObject: {fileID: 205774106}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1736939578}
   m_Father: {fileID: 701880934}
@@ -1000,7 +1000,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: -460}
+  m_AnchoredPosition: {x: 491.4, y: -460}
   m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &205774108
@@ -1541,7 +1541,7 @@ RectTransform:
   m_GameObject: {fileID: 634004305}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1686896812}
   m_Father: {fileID: 701880934}
@@ -1549,7 +1549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 261, y: -309}
+  m_AnchoredPosition: {x: 491, y: -382.0001}
   m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &634004307
@@ -1806,8 +1806,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 696119499}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0014901162}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 53398654}
   m_Father: {fileID: 701880934}
@@ -1815,7 +1815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 595, y: -309}
+  m_AnchoredPosition: {x: 653.99725, y: -382}
   m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &696119501
@@ -2700,7 +2700,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299664874}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 634.1}
+  m_LocalPosition: {x: 0, y: 0, z: 650.4}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children:
   - {fileID: 130064583}
@@ -2801,8 +2801,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493910135}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1956687636}
   m_Father: {fileID: 701880934}
@@ -2810,7 +2810,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 603, y: -460.00037}
+  m_AnchoredPosition: {x: 655.3, y: -460.00037}
   m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1493910137
@@ -4266,12 +4266,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 8483034978127611807}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 1
   solve: 0
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!114 &1607691006195198918
@@ -4684,12 +4682,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307542472283}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 1
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308306503427214
@@ -4984,12 +4980,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307517407035}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308306578411633
@@ -5572,12 +5566,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307726198392}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 1
   sell: 0
   score: 1
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308306689619579
@@ -5928,12 +5920,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308306380194005}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 1
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308306692446095
@@ -6414,12 +6404,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307189456206}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 1
   solve: 0
   sell: 0
   score: 2
-  whichVideoPlaysNext: 1
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!224 &1666308306758853636
@@ -6978,12 +6966,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307635297202}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 1
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308306869867820
@@ -7406,12 +7392,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307506821839}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 1
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308306879946614
@@ -7785,12 +7769,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307511881171}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 1
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307063821105
@@ -8119,8 +8101,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000579834, y: 23}
-  m_SizeDelta: {x: 800, y: 400}
+  m_AnchoredPosition: {x: 0.000579834, y: 88}
+  m_SizeDelta: {x: 800, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1666308307074406262
 CanvasRenderer:
@@ -8156,7 +8138,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 3
-    m_MaxSize: 83
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -8333,12 +8315,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308306538512746}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 0
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307075493354
@@ -8985,12 +8965,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308308188029151}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 1
   solve: 1
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307351941019
@@ -9300,12 +9278,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308306991130375}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 0
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307420432854
@@ -9615,12 +9591,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308306780373415}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 1
   solve: 1
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307434918761
@@ -10021,12 +9995,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308308182184009}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 1
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307464781404
@@ -10684,12 +10656,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308308413506456}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 1
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307568445617
@@ -11285,12 +11255,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307860939475}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307612254828
@@ -11446,12 +11414,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308306700987162}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 0
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307617061985
@@ -12244,12 +12210,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307905794439}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 1
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307682616347
@@ -12683,12 +12647,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308308148821680}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307697565278
@@ -13057,12 +13019,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308308219792757}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 1
   score: 0
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307715119958
@@ -13541,12 +13501,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308306565742194}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 1
   score: 1
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307746314661
@@ -14044,12 +14002,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 1
   answerText: {fileID: 1666308307117733383}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 1
   solve: 0
   sell: 0
   score: 1
-  whichVideoPlaysNext: 2
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!224 &1666308307841166429
@@ -14502,12 +14458,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308306829408248}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 1
   score: 1
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308307971009542
@@ -14809,12 +14763,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308306877743734}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 1
   sell: 0
   score: 1
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308308083105611
@@ -15173,12 +15125,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307058247165}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 1
   sell: 0
   score: 0
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308308098450991
@@ -15585,12 +15535,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308306661226346}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!222 &1666308308148646418
@@ -15762,12 +15710,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307028031973}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308308148646422
@@ -16178,12 +16124,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308308442594244}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308308150499646
@@ -16729,12 +16673,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 1
   answerText: {fileID: 1666308307951828310}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 0
-  whichVideoPlaysNext: 3
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!224 &1666308308191439642
@@ -17138,12 +17080,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307640109797}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 0
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308308399935822
@@ -17704,12 +17644,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307709109317}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &1666308308466651198
@@ -18136,12 +18074,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1666308307635027587}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 1
   score: 0
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!1 &1703370393323572721
@@ -18602,7 +18538,7 @@ PrefabInstance:
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: maxQuestions
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
@@ -18614,6 +18550,11 @@ PrefabInstance:
       propertyPath: feedbackSound
       value: 
       objectReference: {fileID: 1804364876}
+    - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
+        type: 3}
+      propertyPath: readAlongText
+      value: 
+      objectReference: {fileID: 1666308307074406263}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: resultsObject
@@ -18762,7 +18703,7 @@ PrefabInstance:
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.size
-      value: 37
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
@@ -18942,95 +18883,101 @@ PrefabInstance:
         type: 3}
       propertyPath: customerVideos.Array.data[21]
       value: 
-      objectReference: {fileID: 32900000, guid: 7a9f8c41f9014534f84374666ec36143,
+      objectReference: {fileID: 32900000, guid: 6428bc5f1e7250d40bfafc7d06b695c6,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[22]
       value: 
-      objectReference: {fileID: 32900000, guid: 890144bc0e83ec047a8cd8395fc5d92d,
+      objectReference: {fileID: 32900000, guid: 7a9f8c41f9014534f84374666ec36143,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[23]
       value: 
-      objectReference: {fileID: 32900000, guid: 7353c49501ba93f4aa6187716ee8680c,
+      objectReference: {fileID: 32900000, guid: 890144bc0e83ec047a8cd8395fc5d92d,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[24]
       value: 
-      objectReference: {fileID: 32900000, guid: 28fbcee905e90ff4da0ddab622d257a4,
+      objectReference: {fileID: 32900000, guid: 7353c49501ba93f4aa6187716ee8680c,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[25]
       value: 
-      objectReference: {fileID: 32900000, guid: f16a3a77bb72a464d9c9778e2cd6f750,
+      objectReference: {fileID: 32900000, guid: 28fbcee905e90ff4da0ddab622d257a4,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[26]
       value: 
-      objectReference: {fileID: 32900000, guid: 302d522050a95b6408a1df680fb6d5fb,
+      objectReference: {fileID: 32900000, guid: f16a3a77bb72a464d9c9778e2cd6f750,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[27]
       value: 
-      objectReference: {fileID: 32900000, guid: add338532af30734a9ee1b6360d21c5a,
+      objectReference: {fileID: 32900000, guid: 302d522050a95b6408a1df680fb6d5fb,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[28]
       value: 
-      objectReference: {fileID: 32900000, guid: f0b2c3c178e2e9643a5fd2be7a89e8eb,
+      objectReference: {fileID: 32900000, guid: add338532af30734a9ee1b6360d21c5a,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[29]
       value: 
-      objectReference: {fileID: 32900000, guid: ea77561a9aa9d9445935f174f75494ce,
+      objectReference: {fileID: 32900000, guid: f0b2c3c178e2e9643a5fd2be7a89e8eb,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[30]
       value: 
-      objectReference: {fileID: 32900000, guid: b5aeffcb6f7a03f499ca443f84e25419,
+      objectReference: {fileID: 32900000, guid: ea77561a9aa9d9445935f174f75494ce,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[31]
       value: 
-      objectReference: {fileID: 32900000, guid: 9b71004460933024ba2796b713079f25,
+      objectReference: {fileID: 32900000, guid: b5aeffcb6f7a03f499ca443f84e25419,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[32]
       value: 
-      objectReference: {fileID: 32900000, guid: 4c1e265a601ef0c4a8f6831a881206bc,
+      objectReference: {fileID: 32900000, guid: 9b71004460933024ba2796b713079f25,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[33]
       value: 
-      objectReference: {fileID: 32900000, guid: f3b82c33e314f5e41ab9f2497307be67,
+      objectReference: {fileID: 32900000, guid: 4c1e265a601ef0c4a8f6831a881206bc,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[34]
       value: 
-      objectReference: {fileID: 32900000, guid: adc1c90036a1e864ea3d3b63c8d1c7eb,
+      objectReference: {fileID: 32900000, guid: 6428bc5f1e7250d40bfafc7d06b695c6,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[35]
       value: 
-      objectReference: {fileID: 32900000, guid: 4c776fbf8e5d85e45bfd34c6acf73144,
+      objectReference: {fileID: 32900000, guid: f3b82c33e314f5e41ab9f2497307be67,
         type: 3}
     - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
         type: 3}
       propertyPath: customerVideos.Array.data[36]
+      value: 
+      objectReference: {fileID: 32900000, guid: adc1c90036a1e864ea3d3b63c8d1c7eb,
+        type: 3}
+    - target: {fileID: 2307011716900153573, guid: cf51bc2ca40cd9645918e79053a0be8f,
+        type: 3}
+      propertyPath: customerVideos.Array.data[37]
       value: 
       objectReference: {fileID: 32900000, guid: 3570a0ee0b2c13042b8d7d5da0af577d,
         type: 3}
@@ -19497,12 +19444,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 8823199236509954467}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 1
   solve: 0
   sell: 0
   score: 1
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!224 &3514451875176025187
@@ -27840,12 +27785,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 6345886295704171253}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 1
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!82 &4346521126793546291
@@ -28438,12 +28381,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 1
   answerText: {fileID: 4914366327678815154}
-  feedbackText: {fileID: 1666308307074406263}
   serve: -5
   solve: -5
   sell: -5
   score: 0
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!222 &5927284145084727196
@@ -28761,12 +28702,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 4160502948422671448}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 2
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!1 &6937854497000133475
@@ -28824,12 +28763,10 @@ MonoBehaviour:
   CM: {fileID: 230143673}
   oppMissed: 0
   answerText: {fileID: 1980172509756938749}
-  feedbackText: {fileID: 1666308307074406263}
   serve: 0
   solve: 0
   sell: 0
   score: 0
-  whichVideoPlaysNext: 0
   readAlong: {fileID: 4853602975972016879}
   finishedSpeaking: {fileID: 1762842289}
 --- !u!225 &7291067986185049332
@@ -28948,6 +28885,7 @@ MonoBehaviour:
   - {fileID: 1666308307674600225}
   - {fileID: 1666308307734459837}
   - {fileID: 1666308307085633638}
+  - {fileID: 1666308307169386856}
   - {fileID: 1666308307169386856}
   CM: {fileID: 230143673}
 --- !u!224 &7417247766400918886
@@ -29094,7 +29032,7 @@ RectTransform:
   m_GameObject: {fileID: 7417247766485448671}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 633.4}
-  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_LocalScale: {x: 0.015, y: 0.015, z: 0.015}
   m_Children:
   - {fileID: 1666308306675433170}
   - {fileID: 1666308307537343774}
@@ -29108,7 +29046,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -335.6, y: -185}
+  m_AnchoredPosition: {x: -330.1, y: -180}
   m_SizeDelta: {x: 950.00006, y: 703}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7417247766485448669
@@ -29599,7 +29537,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2, y: 394}
+  m_AnchoredPosition: {x: 114, y: 394}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &7989769144837828138
